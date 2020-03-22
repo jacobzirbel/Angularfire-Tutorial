@@ -1,3 +1,6 @@
+import { FirebaseConfig } from "../app/sensitive";
+
 export const environment = {
-  production: true
+  production: true,
+  firebase: FirebaseConfig
 };
